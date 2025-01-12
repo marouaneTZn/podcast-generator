@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip3 install PyYAML
 
-COPY feed.py /usr/bim/feed.python3
+COPY feed.py /usr/bin/feed.python3
 
 COPY entrypoint.sh /entrypoint.sh
 
